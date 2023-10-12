@@ -13,3 +13,6 @@ It involves data querrying with SQL and programming in python and R.
 
 
 # Masters
+## Machine Learning with Python
+- ### Self Written Alogrithms
+- ### scikit-learn Implementation
