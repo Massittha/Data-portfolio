@@ -1,0 +1,248 @@
+---
+title: "House Price India Regression Models with R"
+author: "Massittha M."
+date: "2023-09-27"
+output:
+  html_document:
+    df_print: paged
+---
+
+# Introduction
+
+This report documents the instructions of how I built and compare linear regression and regularized regression with caret package R to predict house prices in India using the dataset, available at https://data.world/dataindianset2000/house-price-india, which contains the data from 2016 to 2017. Steps from reading data into Rstudio to evaluating the two models are covered.  
+
+# Step 1: Load necessary libraries
+
+```{r libraries}
+library(readr)
+library(tidyverse)
+library(ggplot2)
+library(caret)
+library(knitr)
+```
+
+\newpage
+
+# Step 2: Load and join dataset
+
+The dataset of 2016 and 2017 were saved separately in 2 .csv files. They were loaded into 2 dataframes and stacked together using `bind_rows()` command.
+
+## 2.1 Load and join dataframes
+```{r dataframe}
+df1 <- read_csv("House Price India.csv",show_col_types = FALSE)
+df2 <- read_csv("House Price India 2.csv",show_col_types = FALSE)
+
+# join data frame
+full_df <- bind_rows(df1,df2)
+
+```
+
+
+## 2.2 Show all columns
+
+Using `glimpse()` function, it can be seen that the dataset consists of 17594 rows and 23 columns. The data type of all columns is double (dbl) which is suitable for building regression models. 
+
+```{r}
+# show all columns of the dataset
+glimpse(full_df)
+
+```
+\newpage
+
+# Step 3: Data preparation
+## 3.1 Check data completeness
+No missing value was found
+```{r}
+#Check data completeness
+completeness <- full_df %>%
+  complete.cases() %>%
+  mean()*100
+cat(paste("Data completeness: ",completeness,"%"))
+
+```
+## 3.2 Omit id and Date columns 
+id and Date columns were excluded as they were not relevant for predictions.
+
+```{r}
+#excluding id and date
+prep_df <- full_df[,-c(1,2)]
+
+```
+
+# Step 4: Visualizing the target column and applying log transformation
+
+## 4.1 Visualizing Price
+
+The density plot of the price shows that the data distribution is highly right skewed.
+
+```{r,echo = FALSE}
+prep_df %>% 
+  ggplot(aes(x = Price)) +
+  geom_density()+
+  theme_minimal()+
+  labs(
+    title = "Price density",
+    caption = "Source: House Price India, @dataindianset2000 data.world "
+  )  
+
+```
+
+## 4.2 Log transformation
+For better performance of regression models, the skewness was reduced by applying log transformation to the price column. For further steps, the column of log transformation was used as the target columns.
+
+
+```{r,echo = TRUE}
+prep_df$log_price <- log(prep_df$Price)
+```
+
+
+```{r,echo = FALSE}
+prep_df %>% 
+  ggplot(aes(x = log_price)) +
+  geom_density()+
+  theme_minimal()+
+  labs(
+    title = "log of Price density",
+    caption = "Source: House Price India, @dataindianset2000 data.world "
+  )   
+
+```
+
+\newpage
+
+# Step 5: Building the models
+
+## 5.1 Split the data
+A function for splitting the data into train and test sets was created.
+```{r}
+split_data <- function(data,train_size,seed){
+  set.seed(seed)
+  n <- nrow(data)
+  id <- sample(1:n,size = n*train_size)
+  train_set <- data[id, ]
+  test_set <- data[-id, ]
+  cat(paste("nrow train set: ",nrow(train_set),"\n"))
+  cat(paste("nrow test set: ",nrow(test_set),"\n"))
+  return( list ( train = train_set,
+                 test = test_set))
+}
+
+```
+
+Using function to split the data into train and test sets of size 0.8 and 0.2 respectively.
+```{r}
+split_df <- split_data(prep_df,0.8,42)
+train_df <- split_df$train
+test_df <- split_df$test
+
+```
+
+## 5.2 Select features
+
+First, all features, except the price column, were used to train a linear regression model. Using the result of the summary of the model, the features were then chosen by excluding those with significance level of p-value > 0.05 which suggests less statistically significant relationship with the target variable.\newline
+The resampling process used was k-fold cross validation with k = 5 and standardization was applied in the pre-processing.
+
+## Train the model using all features
+```{r}
+
+ctrl <- trainControl(method = "cv",
+                     number = 5,
+                     verboseIter = TRUE)
+
+set.seed(6)
+model <- train(log_price ~ .,
+               data = train_df[,-21],
+               method = "lm",
+               preProcess = c("center","scale"), #standardization
+               trControl = ctrl
+               )
+summary(model)
+
+  ```
+
+
+## Train with insignificant features removed
+It can be seen from the train result above that features with no * as Signif. codes in the coefficients section hold p-values close to 1. Those features were therefore removed before building the models.
+
+## 5.3 Train Linear Regression Model
+The model was built keeping resampling and pre-processing as k-fold CV and standardization respectively. The metric kept for evaluation was Rsquared.
+```{r}
+set.seed(6)
+linreg_model <- train(log_price ~ .
+             -(`Area of the house(excluding basement)`
+              +`Area of the basement`+`Number of schools nearby`+`Distance from the airport`),
+               data = train_df[,-21],
+               method = "lm",
+               preProcess = c("center","scale"), #standardization
+               trControl = ctrl
+               )
+
+summary(linreg_model)
+linreg_rsquared_train <- round(summary(linreg_model)$r.squared,4)
+cat(paste("Linear Regression Train Rsquared: ",linreg_rsquared_train))
+```
+
+## 5.4 Train Regularized Regression Model
+Similarly, the regularized regression model was trained using Rsquared as the metric for final model selection.
+
+```{r}
+set.seed(6)
+glmnet_model <- train(log_price ~ .
+             -(`Area of the house(excluding basement)`
+              +`Area of the basement`+`Number of schools nearby`+`Distance from the airport`),
+               data = train_df[,-21],
+               method = "glmnet",
+               metric = "Rsquared",
+               preProcess = c("center","scale"),
+               trControl = ctrl
+               )
+glmnet_model
+
+glmnet_rsquared_train <- round(c(head(glmnet_model$results$Rsquared,5),tail(glmnet_model$results$Rsquared,5))[1],4)
+cat(paste("Regularized Regression Train Rsquared: ",glmnet_rsquared_train))
+
+```
+# Step 6: Score and evaluate models
+In this step, the two models were used to predict the log transformation of the house price. Rsquared was used as the metric for evaluation.
+
+## 6.1 Predict log transformation of house price
+Log transformation of house price of the test dataset was predicted using the piece of code below.
+```{r}
+p_linreg <- predict(linreg_model,newdata = test_df)
+p_glmnet <- predict(glmnet_model,newdata = test_df)
+```
+
+## 6.2 Calculate Rsquared
+Rsquared values of the test dataset for both models were calculated.
+```{r}
+#evaluate
+error_linreg <- test_df$log_price - p_linreg
+error_glmnet <- test_df$log_price - p_glmnet
+
+ssr_linreg <- sum(error_linreg**2)
+ssr_glmnet <- sum(error_glmnet**2)
+sst <- sum((test_df$log_price - mean(test_df$log_price))**2)
+
+linreg_rsquared_test <- round(1 - ssr_linreg/sst,4)
+glmnet_rsquared_test<- round(1 - ssr_glmnet/sst,4)
+
+cat(paste("Linear regression Test Rsquared: ", linreg_rsquared_test))
+cat(paste("Regularized regression Test Rsquared: ", glmnet_rsquared_test))
+
+```
+
+```{r}
+result <- data.frame(
+  c(linreg_rsquared_train,glmnet_rsquared_train),
+  c(linreg_rsquared_test,glmnet_rsquared_test)
+  )
+
+colnames(result) <- c("Train Rsquared", "Test Rsquared")
+row.names(result) <- c("Linear Regression", "Regularized Regression")
+
+kable(result,caption = "Rsquared Comparison")
+```
+\newpage
+
+# Step 7: Discussion
+From the the previous section, both models proved their generalisability for having close train and test Rsquared results. However, although the performances of the two were equally effective for obtaining almost the same results, linear regression could be more efficient for this regression problem due to its lower complexity in the training process.     

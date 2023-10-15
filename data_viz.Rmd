@@ -1,0 +1,132 @@
+---
+title: "Data Visualization Bootcamp Homework"
+author: "Massittha Gaff"
+date: "2023-08-10"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+# Introduction
+This document is part of my practice on data visualization with R markdown consisting of charts created using ggplot2. The dataset used in this document is ggplot2 built-in diamonds dataset.  
+
+# Loading libraries
+```{r}
+library(tidyverse)
+library(ggplot2)
+```
+
+
+
+# The total data points in diamonds data set is:
+
+```{r}
+cat(nrow(diamonds))
+```
+
+
+\newpage
+
+
+# Chart1: Bar chart 
+
+```{r}
+
+ggplot(diamonds,aes(x=cut,fill=clarity))+
+  geom_bar(position="dodge")+
+  theme_minimal()+
+   labs(
+    title = "Number of diamonds",
+    subtitle = "grouped by cut and clarity",
+    x = "cut",
+    y = "number",
+    caption = "Source: R studio"
+  )
+
+```
+
+The chart above visualises the numbers of diamonds of the whole dataset within each class of clarity, grouped by the quality of the cut.
+
+\newpage
+
+
+# Chart2: Violin
+```{r}
+ggplot(diamonds,aes(x=clarity,y=price))+
+  geom_violin()+
+  theme_minimal()+
+  labs(
+    title = "Violin plot",
+    subtitle = "Visualization of the price distribution of each clarity class",
+    caption = "Source: R studio"
+  )
+
+
+```
+
+The violin chart illustrates the distribution of the price of diamonds in each clarity measurement in order from worst (I1) to best (IF). It can be seen that the highest density lies mostly at the bottom, regardless of clarity type. 
+
+\newpage
+
+  
+
+# Chart3: Pie chart
+```{r}
+
+colors <- diamonds %>%
+  count(color)
+
+ggplot(colors,
+       aes(x=" ",y=n,fill=color))+
+  geom_bar(stat="identity",width=1,color="white")+
+  coord_polar("y",start=0)+
+  theme_void()+
+  labs(
+    title = "Pie chart",
+    subtitle = "Showing proportions of different colours",
+    caption = "Source: R studio"
+  )
+
+
+```
+
+This pie chart shows the proportions of diamond colours, having 'D' as the best, and 'J' as the worst.
+
+\newpage
+
+# Chart4: Linear Regression
+```{r}
+ggplot(diamonds,aes(carat,price,col=clarity))+
+  geom_smooth(method="lm")+
+  theme_minimal()+
+  scale_color_brewer(type="qual",
+                     palette=1)+
+  labs(
+    title = "Linear regression chart",
+    subtitle = "Relationship of carat and price for each clarity class",
+    caption = "Source: R studio"
+  )
+
+```
+
+The line chart above illustrates the trends of carat vs price by clarity measurement. It shows that the price is directly proportional to the carat, and also, the clearer the diamond, the more likely it is for the price to be high.  
+
+\newpage
+
+# Chart5: Facet Wrap
+```{r}
+set.seed(42)
+diamonds_sample <- sample_frac(diamonds,0.4)
+
+ggplot(diamonds_sample,aes(carat,price,col=color))+
+  geom_point(alpha=0.8)+
+  theme_minimal()+
+  facet_wrap(~clarity, ncol = 2)+
+  labs(
+    title = "Facet Wrap of carat vs price scatter plots",
+    subtitle = "Divided by clarity",
+    caption = "Source: R studio"
+  )
+```
+
+This Facet Wrap shows the scatter plot of carat vs price of each clarity class. The data points used were random sample of size 40% of the diamonds dataset. The plots show that, in general, the price increases as the carat and the quality of colour increases. 
