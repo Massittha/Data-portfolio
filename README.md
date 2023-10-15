@@ -15,8 +15,8 @@ It involves data querrying with SQL and programming in python and R.
 >**Web scraping** on IMDb
 
 ## SQL
-### [Creating a mockup relational database](https://github.com/Massittha/data_rockie_sql_project/tree/main)
->I created a mockup database for a restaurant using SQLite. Please follow the link above
+### [Restaurant Database](https://github.com/Massittha/data_rockie_sql_project/tree/main)
+>Mockup relational database for a restaurant created using SQLite. Please follow the link for ER diagram and see some sample queries on my [replit](replithttps://replit.com/@IamGaff/bootcampbatch08sqlrestaurant)
 ## R
 ### Basic R
 ### Data Transformation
