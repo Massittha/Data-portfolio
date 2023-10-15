@@ -4,8 +4,6 @@ It involves data querrying with SQL and programming in python and R.
 
 
 # Datarockie bootcamp
-<br>
-
 ## Python
 Please check out my colab noteboks here
 ### [Rock Paper Scissors game](https://github.com/Massittha/Data-portfolio/blob/main/hw01_rock_paper_scissors_game.ipynb)
