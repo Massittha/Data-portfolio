@@ -10,9 +10,9 @@ It involves data querrying with SQL and programming in python and R.
 ### [Running an ATM](https://github.com/Massittha/Data-portfolio/blob/c8b85612c13cc10818028badb507363f2c87011c/hw02_classATM.ipynb)
 >A **class** of python with a few **class methods** for mimicking the operation of an ATM and **logging all transactions**
 ### [Naruto characters' info](https://github.com/Massittha/Data-portfolio/blob/main/hw03_API.ipynb)
-&nbsp; Use of a **public API** to get data from the Naruto universe
+>Use of a **public API** to get data from the Naruto universe
 ### [Top 50 movies by IMDb ratings](https://github.com/Massittha/Data-portfolio/blob/main/hw04_web_scraping.ipynb)
-&ensp; **Web scraping** on IMDb
+>**Web scraping** on IMDb
 
 ## R
 ### Basic R
