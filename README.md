@@ -6,9 +6,9 @@ It involves data querrying with SQL and programming in python and R.
 # Datarockie bootcamp
 ## Python
 ### [Rock Paper Scissors game](https://github.com/Massittha/Data-portfolio/blob/main/hw01_rock_paper_scissors_game.ipynb)
-    A mini game built from user-defined functions with a result summary plot using **pandas**
+>A mini game built from user-defined functions with a result summary plot using **pandas**
 ### [Running an ATM](https://github.com/Massittha/Data-portfolio/blob/c8b85612c13cc10818028badb507363f2c87011c/hw02_classATM.ipynb)
-    A class of python with a few class methods of an ATM object
+>A class of python with a few class methods for mimicking the operation of an ATM
 ### [Naruto characters' info](https://github.com/Massittha/Data-portfolio/blob/main/hw03_API.ipynb): skill in using public API with python 
 ### [Top 50 movies by IMDb ratings](https://github.com/Massittha/Data-portfolio/blob/main/hw04_web_scraping.ipynb): Web scraping skill
 
