@@ -14,6 +14,8 @@ It involves data querrying with SQL and programming in python and R.
 ### [Top 50 movies by IMDb ratings](https://github.com/Massittha/Data-portfolio/blob/main/hw04_web_scraping.ipynb)
 >**Web scraping** on IMDb
 
+## SQLite
+[Link to my SQL project repository](https://github.com/Massittha/data_rockie_sql_project/tree/main)
 ## R
 ### Basic R
 ### Data Transformation
