@@ -5,10 +5,10 @@ It involves data querrying with SQL and programming in python and R.
 
 # Datarockie bootcamp
 ## Python
-- ### [Rock Paper Scissors game with Python](https://github.com/Massittha/Data-portfolio/blob/main/hw01_rock_paper_scissors_game.ipynb): Python functions
-- ### [An ATM machine created by Python class](https://github.com/Massittha/Data-portfolio/blob/c8b85612c13cc10818028badb507363f2c87011c/hw02_classATM.ipynb): Python class
-- ### [Naruto characters' info](https://github.com/Massittha/Data-portfolio/blob/main/hw03_API.ipynb): Request data from API with python
-- ### Web scraping
+- ### [Rock Paper Scissors game](https://github.com/Massittha/Data-portfolio/blob/main/hw01_rock_paper_scissors_game.ipynb): Python functions skill
+- ### [An ATM machine created](https://github.com/Massittha/Data-portfolio/blob/c8b85612c13cc10818028badb507363f2c87011c/hw02_classATM.ipynb): Python class skill
+- ### [Naruto characters' info](https://github.com/Massittha/Data-portfolio/blob/main/hw03_API.ipynb): skill in using public API with python
+
 
 ## R
 
