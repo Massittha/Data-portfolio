@@ -24,9 +24,7 @@ Please check out my colab noteboks here
 ### Basic R
 ### Data Transformation
 ### Data Visualisation
-
-## R
-
+### Machine Learning
 
 # Masters
 ## Machine Learning with Python
