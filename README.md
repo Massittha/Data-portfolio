@@ -22,8 +22,9 @@ Please check out my colab noteboks here
 >Mockup relational database for a restaurant created using SQLite. Please follow the link for ER diagram and see some sample queries on my [replit](https://replit.com/@IamGaff/bootcampbatch08sqlrestaurant)
 ## R
 ### [Data Visualisation](https://massittha.github.io/data_visualization_R/)
-### Machine Learning
-
+>Some charts plot of built-in diamond dataset using **ggplot2** 
+### [Machine Learning](https://massittha.github.io/caret_r/)
+>Comparing 2 regression models created with **caret package** for predicting house price in India
 # Masters
 ## Machine Learning with Python
 - ### Self Written Alogrithms
