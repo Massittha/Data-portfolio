@@ -2,11 +2,12 @@
 This repository is a collection of data science related projects I have done during my master's and while attending a data science bootcamp by [datarockie](https://datarockie.com/).
 It involves data querrying with SQL and programming in python and R.
 
+
+# Datarockie bootcamp
 ## SQL
 ### [Restaurant Database](https://github.com/Massittha/data_rockie_sql_project/tree/main)
 >Mockup relational database for a restaurant created using SQLite. Please follow the link for ER diagram and see some sample queries on my [replit](https://replit.com/@IamGaff/bootcampbatch08sqlrestaurant)
 
-# Datarockie bootcamp
 ## Python
 Please check out my colab notebooks here
 ### [Rock Paper Scissors game](https://github.com/Massittha/Data-portfolio/blob/main/hw01_rock_paper_scissors_game.ipynb)
