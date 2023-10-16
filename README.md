@@ -21,9 +21,7 @@ Please check out my colab noteboks here
 ### [Restaurant Database](https://github.com/Massittha/data_rockie_sql_project/tree/main)
 >Mockup relational database for a restaurant created using SQLite. Please follow the link for ER diagram and see some sample queries on my [replit](https://replit.com/@IamGaff/bootcampbatch08sqlrestaurant)
 ## R
-### Basic R
-### Data Transformation
-### Data Visualisation
+### [Data Visualisation](https://massittha.github.io/data_visualization_R/)
 ### Machine Learning
 
 # Masters
