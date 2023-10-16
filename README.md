@@ -25,7 +25,7 @@ Please check out my colab noteboks here
 >Some charts plot of built-in diamond dataset using **ggplot2** 
 ### [Machine Learning](https://massittha.github.io/caret_r/)
 >Comparing 2 regression models created with **caret package** for predicting house price in India
-# Masters
+# Masters (Adding content soon)
 ## Machine Learning with Python
 - ### Self Written Alogrithms
 - ### scikit-learn Implementation
