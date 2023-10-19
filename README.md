@@ -8,7 +8,7 @@ It involves data querrying with SQL and programming in python and R.
 ### [Restaurant Database](https://github.com/Massittha/data_rockie_sql_project/tree/main)
 >Mockup relational database for a restaurant created using SQLite. Please checkout how the queries run on my [replit](https://replit.com/@IamGaff/bootcampbatch08sqlrestaurant)
 >  <p align = "center">
-> <img src="https://github.com/Massittha/Data-portfolio/assets/93946138/f7ee3731-b400-41d3-8bb6-5b02d2edf39d" width="300" height="250" />
+> <img src="https://github.com/Massittha/Data-portfolio/assets/93946138/f7ee3731-b400-41d3-8bb6-5b02d2edf39d" width="600" height="360" />
 
 <br>
 
@@ -45,7 +45,7 @@ Please check out my python notebooks here
 ### [Data Visualisation](https://massittha.github.io/data_visualization_R/)
 >Some charts plot of built-in diamond dataset using **ggplot2**
 > <p align = "center">
-> <img src="https://github.com/Massittha/Data-portfolio/assets/93946138/bc33a301-89c6-4341-baea-984169de5e7d" width="600" height="360"  />
+> <img src="https://github.com/Massittha/Data-portfolio/assets/93946138/bc33a301-89c6-4341-baea-984169de5e7d" width="400" height="300"  />
 
 ### [Data Transformation](https://www.notion.so/Data-Transformation-with-R-ab7d2d8a8e0b437ea32185fbafee2408)
 >code snippets I used for transforming tables in nycflights13 package
