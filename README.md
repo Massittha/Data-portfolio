@@ -8,7 +8,7 @@ It involves data querrying with SQL and programming in python and R.
 ### [Restaurant Database](https://github.com/Massittha/data_rockie_sql_project/tree/main)
 >Mockup relational database for a restaurant created using SQLite. Please checkout how the queries run on my [replit](https://replit.com/@IamGaff/bootcampbatch08sqlrestaurant)
 >  <p align = "center">
-> <img src="https://github.com/Massittha/Data-portfolio/assets/93946138/f7ee3731-b400-41d3-8bb6-5b02d2edf39d" width="500" height="300" />
+> <img src="https://github.com/Massittha/Data-portfolio/assets/93946138/f7ee3731-b400-41d3-8bb6-5b02d2edf39d" width="300" height="250" />
 
 <br>
 
