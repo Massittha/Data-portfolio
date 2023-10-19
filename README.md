@@ -16,7 +16,7 @@ It involves data querrying with SQL and programming in python and R.
 ## Python
 Please check out my python notebooks here
 
-## Essential python for data science
+### Essential python for data science
 - ### [Sales Data Analysis and Visualisation](https://datalore.jetbrains.com/report/static/12XcWoRynSPNSW7x2NCo85/BqHezHwsvi1Emx5W05u9a9)
 >Use of **pandas** library to import a dataframe for analysis and visualisation
 >  <p align = "center">
@@ -32,7 +32,7 @@ Please check out my python notebooks here
 
 <br>
 
-##  Object Oriented Programming and User-defined Functions
+###  Object Oriented Programming and User-defined Functions
 
 - ### [Running an ATM](https://github.com/Massittha/Data-portfolio/blob/main/hw02_classATM.ipynb)
 >A **class** of python with a few **class methods** for mimicking the operation of an ATM and **logging all transactions**
