@@ -9,7 +9,11 @@ It involves data querrying with SQL and programming in python and R.
 >Mockup relational database for a restaurant created using SQLite. Please follow the link for ER diagram and see some sample queries on my [replit](https://replit.com/@IamGaff/bootcampbatch08sqlrestaurant)
 
 ## Python
-Please check out my colab notebooks here
+Please check out my python notebooks here
+### [Sales Data Analysis and Visualisation](https://datalore.jetbrains.com/report/static/12XcWoRynSPNSW7x2NCo85/BqHezHwsvi1Emx5W05u9a9)
+>A datalore report including use of **pandas** library to import a dataframe for analysis and visualisation
+![image](https://github.com/Massittha/Data-portfolio/assets/93946138/56e770bd-71b0-4d93-94fb-1c9f66f26c95)
+
 ### [Rock Paper Scissors game](https://github.com/Massittha/Data-portfolio/blob/main/hw01_rock_paper_scissors_game.ipynb)
 >A mini game built from user-defined functions with a result summary plot using **pandas**
 ### [Running an ATM](https://github.com/Massittha/Data-portfolio/blob/main/hw02_classATM.ipynb)
