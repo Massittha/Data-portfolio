@@ -15,7 +15,7 @@ It involves data querrying with SQL and programming in python and R.
 ## Python
 Please check out my python notebooks here
 ### [Sales Data Analysis and Visualisation](https://datalore.jetbrains.com/report/static/12XcWoRynSPNSW7x2NCo85/BqHezHwsvi1Emx5W05u9a9)
->A datalore report including use of **pandas** library to import a dataframe for analysis and visualisation
+>Use of **pandas** library to import a dataframe for analysis and visualisation
 >  <p align = "center">
 >  <img src="https://github.com/Massittha/Data-portfolio/assets/93946138/56e770bd-71b0-4d93-94fb-1c9f66f26c95"  />
 
