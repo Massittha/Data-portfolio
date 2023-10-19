@@ -12,12 +12,12 @@ It involves data querrying with SQL and programming in python and R.
 Please check out my python notebooks here
 ### [Sales Data Analysis and Visualisation](https://datalore.jetbrains.com/report/static/12XcWoRynSPNSW7x2NCo85/BqHezHwsvi1Emx5W05u9a9)
 >A datalore report including use of **pandas** library to import a dataframe for analysis and visualisation
-  ![image|100x100](https://github.com/Massittha/Data-portfolio/assets/93946138/56e770bd-71b0-4d93-94fb-1c9f66f26c95)
+  ![image|100x100](https://github.com/Massittha/Data-portfolio/assets/93946138/56e770bd-71b0-4d93-94fb-1c9f66f26c95.png)
 >
 
 ### [Rock Paper Scissors game](https://github.com/Massittha/Data-portfolio/blob/main/hw01_rock_paper_scissors_game.ipynb)
 >A mini game built from user-defined functions with a result summary plot using **pandas**
-  ![image|100x100](https://github.com/Massittha/Data-portfolio/assets/93946138/5c4bf6fb-cd62-4712-a80b-d76368a1f8da)
+  ![image|100x100](https://github.com/Massittha/Data-portfolio/assets/93946138/5c4bf6fb-cd62-4712-a80b-d76368a1f8da.png)
 
 ### [Running an ATM](https://github.com/Massittha/Data-portfolio/blob/main/hw02_classATM.ipynb)
 >A **class** of python with a few **class methods** for mimicking the operation of an ATM and **logging all transactions**
