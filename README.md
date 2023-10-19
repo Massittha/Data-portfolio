@@ -7,7 +7,9 @@ It involves data querrying with SQL and programming in python and R.
 ## SQL
 ### [Restaurant Database](https://github.com/Massittha/data_rockie_sql_project/tree/main)
 >Mockup relational database for a restaurant created using SQLite. Please checkout how the queries run on my [replit](https://replit.com/@IamGaff/bootcampbatch08sqlrestaurant)
+
 ![image](https://github.com/Massittha/Data-portfolio/assets/93946138/f7ee3731-b400-41d3-8bb6-5b02d2edf39d)
+<img src="https://github.com/Massittha/Data-portfolio/assets/93946138/f7ee3731-b400-41d3-8bb6-5b02d2edf39d" width="200" height="400" />
 
 
 
@@ -15,6 +17,7 @@ It involves data querrying with SQL and programming in python and R.
 Please check out my python notebooks here
 ### [Sales Data Analysis and Visualisation](https://datalore.jetbrains.com/report/static/12XcWoRynSPNSW7x2NCo85/BqHezHwsvi1Emx5W05u9a9)
 >A datalore report including use of **pandas** library to import a dataframe for analysis and visualisation
+
   ![image|100x100](https://github.com/Massittha/Data-portfolio/assets/93946138/56e770bd-71b0-4d93-94fb-1c9f66f26c95)
 
 ### [Rock Paper Scissors game](https://github.com/Massittha/Data-portfolio/blob/main/hw01_rock_paper_scissors_game.ipynb)
