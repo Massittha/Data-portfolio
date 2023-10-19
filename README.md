@@ -44,6 +44,9 @@ Please check out my python notebooks here
 ## R
 ### [Data Visualisation](https://massittha.github.io/data_visualization_R/)
 >Some charts plot of built-in diamond dataset using **ggplot2**
+> <p align = "center">
+> <img src="https://github.com/Massittha/Data-portfolio/assets/93946138/bc33a301-89c6-4341-baea-984169de5e7d" width="600" height="360"  />
+
 ### [Data Transformation](https://www.notion.so/Data-Transformation-with-R-ab7d2d8a8e0b437ea32185fbafee2408)
 >code snippets I used for transforming tables in nycflights13 package
 
