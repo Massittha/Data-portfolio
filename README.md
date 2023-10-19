@@ -16,7 +16,7 @@ Please check out my python notebooks here
 
 ### [Rock Paper Scissors game](https://github.com/Massittha/Data-portfolio/blob/main/hw01_rock_paper_scissors_game.ipynb)
 >A mini game built from user-defined functions with a result summary plot using **pandas**
-  ![image|100x100](https://github.com/Massittha/Data-portfolio/assets/93946138/5c4bf6fb-cd62-4712-a80b-d76368a1f8da)
+ ![image](https://github.com/Massittha/Data-portfolio/assets/93946138/35a7fe2c-a8ca-4554-b7e1-59f5ae00ee43)
 
 ### [Running an ATM](https://github.com/Massittha/Data-portfolio/blob/main/hw02_classATM.ipynb)
 >A **class** of python with a few **class methods** for mimicking the operation of an ATM and **logging all transactions**
