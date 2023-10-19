@@ -34,7 +34,7 @@ Please check out my python notebooks here
 
 ##  Object Oriented Programming and User-defined Functions
 
-### [Running an ATM](https://github.com/Massittha/Data-portfolio/blob/main/hw02_classATM.ipynb)
+- ### [Running an ATM](https://github.com/Massittha/Data-portfolio/blob/main/hw02_classATM.ipynb)
 >A **class** of python with a few **class methods** for mimicking the operation of an ATM and **logging all transactions**
 
 - ### [Rock Paper Scissors game](https://github.com/Massittha/Data-portfolio/blob/main/hw01_rock_paper_scissors_game.ipynb)
