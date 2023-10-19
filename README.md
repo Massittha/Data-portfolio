@@ -33,7 +33,6 @@ Please check out my python notebooks here
 ### [Naruto characters' info](https://github.com/Massittha/Data-portfolio/blob/main/hw03_API.ipynb)
 >Use of a **public API** to get data from the Naruto universe
 
-<br>
 
 ### [Top 50 movies by IMDb ratings](https://github.com/Massittha/Data-portfolio/blob/main/hw04_web_scraping.ipynb)
 >**Web scraping** on IMDb
