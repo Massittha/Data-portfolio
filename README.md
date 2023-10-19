@@ -24,13 +24,6 @@ Please check out my python notebooks here
 
 <br>
 
-- ### [Rock Paper Scissors game](https://github.com/Massittha/Data-portfolio/blob/main/hw01_rock_paper_scissors_game.ipynb)
->A mini game built from user-defined functions with a result summary plot using **pandas**
->  <p align = "center">
-> <img src="https://github.com/Massittha/Data-portfolio/assets/93946138/35a7fe2c-a8ca-4554-b7e1-59f5ae00ee43"  />
-  
-<br>
-
 - ### [Top 50 movies by IMDb ratings](https://github.com/Massittha/Data-portfolio/blob/main/hw04_web_scraping.ipynb)
 >**Web scraping** on IMDb
 
@@ -38,12 +31,18 @@ Please check out my python notebooks here
 >Use of a **public API** to get data from the Naruto universe
 
 <br>
-##  
+
+##  Object Oriented Programming and User-defined Functions
 
 ### [Running an ATM](https://github.com/Massittha/Data-portfolio/blob/main/hw02_classATM.ipynb)
 >A **class** of python with a few **class methods** for mimicking the operation of an ATM and **logging all transactions**
 
+- ### [Rock Paper Scissors game](https://github.com/Massittha/Data-portfolio/blob/main/hw01_rock_paper_scissors_game.ipynb)
+>A mini game built from user-defined functions with a result summary plot using **pandas**
+>  <p align = "center">
+> <img src="https://github.com/Massittha/Data-portfolio/assets/93946138/35a7fe2c-a8ca-4554-b7e1-59f5ae00ee43"  />
 
+<br>
 
 
 ## R
