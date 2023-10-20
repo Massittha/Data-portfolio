@@ -4,6 +4,10 @@ It involves data querrying with SQL and programming in python and R.
 
 
 # Datarockie bootcamp
+In this bootcamp, I learned essential data science skills covering spreadsheets, statistics, data transformation, data visualisation and programming skills including:
+- SQL
+- Python
+- R
 
 ## SQL
 ### [Restaurant Database](https://github.com/Massittha/data_rockie_sql_project/tree/main)
