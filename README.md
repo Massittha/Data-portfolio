@@ -29,7 +29,7 @@ Please check out my python notebooks here
 <br>
 
 - ### [Cleaning COVID-19 Data for Looker Studio Dashboard](https://github.com/Massittha/Data-portfolio/blob/main/clean_covid_data_viz.ipynb)
->Clean [raw data](https://github.com/Massittha/Data-portfolio/blob/main/owid-covid-data.zip) and prepare a dataset for [COVID-19 Dashboard on Looker Studio](https://lookerstudio.google.com/s/ur4CbxWkKMA) 
+>Clean [raw data](https://github.com/Massittha/Data-portfolio/blob/main/owid-covid-data.zip) and prepare a dataset for [COVID-19 Dashboard on Looker Studio]([https://lookerstudio.google.com/s/ur4CbxWkKMA](https://lookerstudio.google.com/s/gOLik7hRhRw)) 
 >  <p align = "center">
 >  <img src= "https://github.com/Massittha/Data-portfolio/assets/93946138/d25bed25-bfaf-42f8-8f60-c065839ced4c" width="500" height ="350" />
 <br>
