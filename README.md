@@ -17,6 +17,7 @@ In this bootcamp, I learned essential data science skills covering spreadsheets,
 
 <br>
 
+
 ## Python
 Please check out my python notebooks here
 
@@ -31,7 +32,7 @@ Please check out my python notebooks here
 - ### [Cleaning COVID-19 Data for Looker Studio Report](https://github.com/Massittha/Data-portfolio/blob/main/clean_covid_data_viz.ipynb)
 >Clean [raw data](https://github.com/Massittha/Data-portfolio/blob/main/owid-covid-data.zip) and prepare a dataset for [COVID-19 Report on Looker Studio]([https://lookerstudio.google.com/s/ur4CbxWkKMA](https://lookerstudio.google.com/s/gOLik7hRhRw)) 
 >  <p align = "center">
->  <img src= "https://lookerstudio.google.com/u/0/reporting/d03052ba-fafd-4a21-b5bd-f25322049502/page/8zNgD/thumbnail" width="500" height="375" />
+>  <img src= "https://github.com/Massittha/Data-portfolio/assets/93946138/43b67ab9-d938-48a8-b437-a0d96736e44e" width="500" height="375" />
 <br>
 
 - ### [Top 50 movies by IMDb ratings](https://github.com/Massittha/Data-portfolio/blob/main/hw04_web_scraping.ipynb)
