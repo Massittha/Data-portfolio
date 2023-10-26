@@ -28,6 +28,12 @@ Please check out my python notebooks here
 
 <br>
 
+- ### [Cleaning COVID-19 Data for Looker Studio Dashboard](https://github.com/Massittha/Data-portfolio/blob/main/clean_covid_data_viz.ipynb)
+>Clean and prepare a dataset for [COVID-19 Dashboard on Looker Studio](https://lookerstudio.google.com/s/ur4CbxWkKMA)
+>  <p align = "center">
+>  <img src= "https://github.com/Massittha/Data-portfolio/assets/93946138/d25bed25-bfaf-42f8-8f60-c065839ced4c" width="600" height ="400" />
+<br>
+
 - ### [Top 50 movies by IMDb ratings](https://github.com/Massittha/Data-portfolio/blob/main/hw04_web_scraping.ipynb)
 >**Web scraping** on IMDb
 
