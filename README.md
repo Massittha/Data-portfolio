@@ -31,7 +31,7 @@ Please check out my python notebooks here
 - ### [Cleaning COVID-19 Data for Looker Studio Report](https://github.com/Massittha/Data-portfolio/blob/main/clean_covid_data_viz.ipynb)
 >Clean [raw data](https://github.com/Massittha/Data-portfolio/blob/main/owid-covid-data.zip) and prepare a dataset for [COVID-19 Report on Looker Studio]([https://lookerstudio.google.com/s/ur4CbxWkKMA](https://lookerstudio.google.com/s/gOLik7hRhRw)) 
 >  <p align = "center">
->  <img src= "https://github.com/Massittha/Data-portfolio/assets/93946138/d25bed25-bfaf-42f8-8f60-c065839ced4c" width="500" height ="350" />
+>  <img src= "https://lookerstudio.google.com/u/0/reporting/d03052ba-fafd-4a21-b5bd-f25322049502/page/8zNgD/thumbnail" />
 <br>
 
 - ### [Top 50 movies by IMDb ratings](https://github.com/Massittha/Data-portfolio/blob/main/hw04_web_scraping.ipynb)
