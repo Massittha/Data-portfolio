@@ -70,5 +70,6 @@ Please check out my python notebooks here
 >Comparing 2 regression models created with **caret package** for predicting house price in India
 # Masters (Adding content soon)
 ## Machine Learning with Python
-- ### Self Written Alogrithms
+- ### [K Nearest Neighbors Classifier from Scratch](https://github.com/Massittha/Data-portfolio/blob/main/My_KNeighbors_Class.ipynb)
+> Building my own version of KNeighbors Classifier from scratch and compare it with `sklearn` implementation.
 - ### scikit-learn Implementation
