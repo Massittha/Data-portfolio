@@ -3,6 +3,7 @@ It involves data querrying with SQL and programming in python and R.
 
 # Masters at the University of Bristol
 During my master's in Biorobotics, I took Introduction to Artificial Intelligence as a mandatory course from which I learned machine learning applications using python.
+Below are some of my work from the course.
 ## Machine Learning with Python
 - ### [K Nearest Neighbors Classifier from Scratch](https://github.com/Massittha/Data-portfolio/blob/main/My_KNeighbors_Class.ipynb)
 > Building my own version of KNeighbors Classifier from scratch and compare it with `sklearn` implementation.
