@@ -1,4 +1,3 @@
-# Massittha's data portfolio (more content on the way)
 This repository is a collection of data science related projects I have done during my master's and while attending a data science bootcamp by [datarockie](https://datarockie.com/).
 It involves data querrying with SQL and programming in python and R.
 
