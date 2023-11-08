@@ -1,6 +1,10 @@
 This repository is a collection of data science related projects I have done during my master's and while attending a data science bootcamp by [datarockie](https://datarockie.com/).
 It involves data querrying with SQL and programming in python and R.
 
+# Masters (Adding content soon)
+## Machine Learning with Python
+- ### [K Nearest Neighbors Classifier from Scratch](https://github.com/Massittha/Data-portfolio/blob/main/My_KNeighbors_Class.ipynb)
+> Building my own version of KNeighbors Classifier from scratch and compare it with `sklearn` implementation.
 
 # Datarockie bootcamp
 In this bootcamp, I learned essential data science skills covering spreadsheets, statistics, data transformation, data visualisation and programming skills including:
@@ -29,7 +33,7 @@ Please check out my python notebooks here
 <br>
 
 - ### [Cleaning COVID-19 Data for Looker Studio Report](https://github.com/Massittha/Data-portfolio/blob/main/clean_covid_data_viz.ipynb)
->Clean [raw data](https://github.com/Massittha/Data-portfolio/blob/main/owid-covid-data.zip) and prepare a dataset for [COVID-19 Report on Looker Studio]([https://lookerstudio.google.com/s/ur4CbxWkKMA](https://lookerstudio.google.com/s/gOLik7hRhRw)) 
+>Clean [raw data](https://github.com/Massittha/Data-portfolio/blob/main/owid-covid-data.zip) and prepare a dataset for [COVID-19 Report on Looker Studio]([https://lookerstudio.google.com/s/ur4CbxWkKMA](https://lookerstudio.google.com/reporting/d03052ba-fafd-4a21-b5bd-f25322049502)) 
 >  <p align = "center">
 >  <img src= "https://github.com/Massittha/Data-portfolio/assets/93946138/43b67ab9-d938-48a8-b437-a0d96736e44e" width="500" height="375" />
 <br>
@@ -67,8 +71,4 @@ Please check out my python notebooks here
 
 ### [Machine Learning](https://massittha.github.io/caret_r/)
 >Comparing 2 regression models created with **caret package** for predicting house price in India
-# Masters (Adding content soon)
-## Machine Learning with Python
-- ### [K Nearest Neighbors Classifier from Scratch](https://github.com/Massittha/Data-portfolio/blob/main/My_KNeighbors_Class.ipynb)
-> Building my own version of KNeighbors Classifier from scratch and compare it with `sklearn` implementation.
-- ### scikit-learn Implementation
+
