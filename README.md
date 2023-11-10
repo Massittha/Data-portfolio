@@ -7,7 +7,7 @@ Below are some of my work from the course.
 ## Machine Learning with Python
 - ### [K Nearest Neighbors Classifier from Scratch](https://github.com/Massittha/Data-portfolio/blob/main/My_KNeighbors_Class.ipynb)
 > Building my own version of KNeighbors Classifier.
--### [Gaussian Naive Bayes Classifier from Scratch](https://github.com/Massittha/Data-portfolio/blob/main/My_GaussianNB.ipynb)
+- ### [Gaussian Naive Bayes Classifier from Scratch](https://github.com/Massittha/Data-portfolio/blob/main/My_GaussianNB.ipynb)
 > Building my own version of Gaussian Naive Bayes Classifier
 
 # Datarockie bootcamp
