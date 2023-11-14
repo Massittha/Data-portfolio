@@ -9,6 +9,8 @@ Below are some of applications I learned from the course.
 > Building my own version of KNeighbors Classifier.
 - ### [Gaussian Naive Bayes Classifier from Scratch](https://github.com/Massittha/Data-portfolio/blob/main/My_GaussianNB.ipynb)
 > Building my own version of Gaussian Naive Bayes Classifier
+- ### [DecisionTreeRegressor tuning with GridSearchCV](https://github.com/Massittha/Data-portfolio/blob/main/SeoulBikeRegression.ipynb)
+> Fitting DecisionTreeRegressor with the best criterion and max depth to predict Seoul Bike Sharing Demand Data
 
 # Datarockie bootcamp
 In this bootcamp, I learned essential data science skills covering spreadsheets, statistics, data transformation, data visualisation and programming skills including:
